@@ -1,0 +1,31 @@
+# 忽略本地数据文件
+data/
+backtest_results/
+backtest_results_sqqq/
+
+# 忽略 Jupyter / Python 中间产物
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+*.log
+*.csv
+
+# 忽略系统文件
+.DS_Store
+
+# 忽略未来可能使用的私密配置
+.env
+*.env
+
+# 忽略 SSH 私钥（重要）
+id_ed25519
+id_ed25519.pub
+/mnt/data/id_ed25519
+/mnt/data/id_ed25519.pub
+root/id_ed25519
+root/id_ed25519.pub
+
+# 忽略 IBKR 真实凭据（若未来添加）
+ibkr_credentials.json
+secrets/
+config/
