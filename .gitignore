@@ -9,6 +9,7 @@ __pycache__/
 *.ipynb_checkpoints/
 *.log
 *.csv
+root/backtest_log.txt
 
 # 忽略系统文件
 .DS_Store
@@ -25,6 +26,10 @@ id_ed25519.pub
 root/id_ed25519
 root/id_ed25519.pub
 setup_git_ssh.sh
+
+# AWS 本地运行脚本（不推送）
+push_changes.sh
+sync_with_main.sh
 
 # 忽略 IBKR 真实凭据（若未来添加）
 ibkr_credentials.json
