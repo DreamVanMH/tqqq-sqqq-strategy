@@ -31,10 +31,6 @@ root/id_ed25519.pub
 /push_changes.sh
 /sync_with_main.sh
 
-# AWS 本地运行脚本（不推送）
-push_changes.sh
-sync_with_main.sh
-
 # 忽略 IBKR 真实凭据（若未来添加）
 ibkr_credentials.json
 secrets/
