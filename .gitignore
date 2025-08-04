@@ -9,6 +9,7 @@ __pycache__/
 *.ipynb_checkpoints/
 *.log
 *.csv
+root/backtest_log.txt
 
 # 忽略系统文件
 .DS_Store
