@@ -2,6 +2,7 @@
 data/
 backtest_results/
 backtest_results_sqqq/
+tqqq-sqqq-strategy.wiki/
 
 # 忽略 Jupyter / Python 中间产物
 __pycache__/
