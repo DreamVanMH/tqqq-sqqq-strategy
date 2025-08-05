@@ -17,7 +17,7 @@ pip_path = venv_path / 'bin' / 'pip'
 req_path = Path('/mnt/data/root/requirements.txt')
 if req_path.exists():
     print('📦 Installing dependencies from requirements.txt...')
-    subprocess.run([str(pip_path), 'install', '-r', str(req_path)])
+    subprocess.run(["pip", "install", "-r", str(req_path), "--break-system-packages"])
 else:
     print('⚠️  requirements.txt not found')
 

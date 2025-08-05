@@ -9,7 +9,8 @@ upload_targets = {
     '/mnt/data/backtest_results': 'tqqq/',
     '/mnt/data/backtest_results_sqqq': 'sqqq/',
     '/mnt/data/strategies': 'strategies/',
-    '/mnt/data/root': 'root/'
+    '/mnt/data/root': 'root/',
+    '/mnt/data/broker': 'broker/'
 }
 
 # === 获取今天的日期作为子路径 ===
