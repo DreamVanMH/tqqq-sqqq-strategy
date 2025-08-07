@@ -2,7 +2,7 @@ from ib_insync import *
 
 # 启动 IB 接口
 ib = IB()
-ib.connect('127.0.0.1', 4002, clientId=1)  # 4001 是 paper account 默认端口
+ib.connect('127.0.0.1', 4002, clientId=1)  # 4002 是 paper account 默认端口
 
 # 定义合约（TQQQ）
 contract = Stock('TQQQ', 'SMART', 'USD')
