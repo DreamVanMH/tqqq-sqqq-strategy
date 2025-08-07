@@ -4,3 +4,4 @@ matplotlib
 ta
 tqdm
 boto3
+yfinance
