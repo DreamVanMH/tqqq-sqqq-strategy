@@ -9,13 +9,13 @@ echo "📦 [2/6] Updating system & installing dependencies..."
 sudo apt update
 sudo apt install -y python3-venv python3-pip
 
-echo "🌱 [3/6] Creating virtual environment (if not exists)..."
-if [ ! -d "$HOME/.venv" ]; then
-  python3 -m venv ~/.venv
+echo "🌱 [3/6] Creating virtual environment at /mnt/data/myenv (if not exists)..."
+if [ ! -d "/mnt/data/myenv" ]; then
+  python3 -m venv /mnt/data/myenv
 fi
 
 echo "⚡ [4/6] Activating virtual environment..."
-source ~/.venv/bin/activate
+source /mnt/data/myenv/bin/activate
 
 echo "📚 [5/6] Installing Python packages from requirements.txt..."
 pip install --upgrade pip
